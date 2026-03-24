@@ -1,6 +1,6 @@
 # Aura Chat
 
-[![[cloudflarebutton]]](https://deploy.workers.cloudflare.com/?url=${repositoryUrl})
+[![[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/alexandergillie/aura-minimalist-edge-chat)]](https://deploy.workers.cloudflare.com/?url=${repositoryUrl})
 
 A full-stack, real-time chat application powered by Cloudflare Workers. Features user management, chat boards, and message persistence using Durable Objects for scalable, zero-cold-start state management. Built with modern React frontend and type-safe TypeScript throughout.
 
@@ -84,7 +84,7 @@ curl -X POST http://localhost:3000/api/chats/c1/messages -H "Content-Type: appli
 
 Deploy to Cloudflare Workers in one click:
 
-[![[cloudflarebutton]]](https://deploy.workers.cloudflare.com/?url=${repositoryUrl})
+[![[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/alexandergillie/aura-minimalist-edge-chat)]](https://deploy.workers.cloudflare.com/?url=${repositoryUrl})
 
 Or manually:
 
